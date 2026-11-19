@@ -1,6 +1,7 @@
 import Splash from "./Pages/Splash"
 import { Route, Routes } from "react-router-dom"
 import Onboarding from "./Pages/Onboarding"
+import Login from "./Pages/Login"
 
 export default function App() {
 
@@ -8,6 +9,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Splash />} />
       <Route path="/onboarding" element={<Onboarding />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   )
 
